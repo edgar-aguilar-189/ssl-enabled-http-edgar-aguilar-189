@@ -1,0 +1,9 @@
+Name: Edgar Aguilar
+Lab Name: SSL-enabled
+Date Assigned: Nov 22, 2021
+Date Completed: Nov 28, 2021
+Status: Completed.
+
+Outstanding Issues: None.
+Major Impediments: Figuring out the correct commands to enable the SSL certificate file and key was difficult for me in this lab. It also took me some time to figure out that I needed the port number after site1.internal for it to work correctly. 
+Feedback Comments: None. 

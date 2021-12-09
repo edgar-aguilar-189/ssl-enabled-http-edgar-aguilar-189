@@ -21,5 +21,6 @@ RUN mkdir -p /etc/apache2/ssl
 RUN openssl req -x509 -nodes -days 365 -subj "/C=US/ST=CA/O=MySite/CN=site1.internal" -newkey rsa:2048 -keyout /etc/apache2/ssl/site1.internal.key -out /etc/apache2/ssl/site1.internal.crt
 
 Label Maintainer: "edgar.aguilar.189@my.csun.edu"
-Expose 80 443
+Expose 80
+Expose 443
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
